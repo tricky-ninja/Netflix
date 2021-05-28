@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import './Banner.css'
-import {image_url} from '../../config/config'
-const API_KEY = process.env.API_KEY
+import {image_url, API_KEY} from '../../config/config'
+//const API_KEY = process.env.API_KEY
 import YouTube from 'react-youtube';
 import axios from '../../axios'
 

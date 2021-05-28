@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import YouTube from 'react-youtube';
 import './RowPost.css'
-import {image_url} from '../../config/config'
-const API_KEY = process.env.API_KEY
+import {image_url, API_KEY} from '../../config/config'
+//const API_KEY = process.env.API_KEY
 import axios from '../../axios'
 
 function RowPost({
@@ -45,7 +45,7 @@ function RowPost({
             if(res.data.results.length !== 0){
                 setYtId(res.data.results[0])
             } else {
-                console.log('Length Zero')
+                alert('No Video Found!')
             }
         })
       }
