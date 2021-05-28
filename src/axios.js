@@ -1,4 +1,4 @@
-import axios from 'axios'
+const API_KEY = process.env.API_KEY
 import {baseUrl} from './config/config'
 
 const instance = axios.create({
