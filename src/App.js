@@ -17,8 +17,7 @@ function App() {
       <RowPost url={horror} title="Horror" isSmall />
       <RowPost url={documentaries} title="Documentaries" isSmall />
       
-      <h6>Copyright © {year} This Website is made by Sreyas. This site uses TMDB api to provide movie details</h6>
-    </div>
+      
   );
 }
 
